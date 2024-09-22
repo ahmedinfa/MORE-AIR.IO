@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More Air</title>
+
+    <!-- ##################### FONT AWESOME CDN ##################### -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- lenis -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.1.13/dist/lenis.css"
+    />
+    <!-- ##################### CUSTOM CSS ##################### -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- navbar -->
+      <nav>
+        <!-- left -->
+        <div class="left">
+          <a href="#">more air <sup>&#174;</sup></a>
+        </div>
+
+        <!-- right -->
+        <div class="right">
+          <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+      </nav>
+
+      <!-- menus -->
+      <div class="menus">
+        <!-- <div class="top"></div> -->
+
+        <!-- bottom -->
+        <div class="bottom">
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- hero section -->
+      <section id="hero">
+        <div class="container">
+          <!-- hero heading -->
+          <div class="h1 headings">
+            <h1 class="main_headings">Designing the</h1>
+          </div>
+          <div class="h2 headings">
+            <h2 class="main_headings">future today</h2>
+          </div>
+
+          <!-- hero sub heading -->
+          <div class="hero_subtitle">
+            <div class="p1">
+              <p class="subtitle">We move brands to their</p>
+            </div>
+            <div class="p2">
+              <p class="subtitle">next chapter.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- video section -->
+      <section id="video">
+        <video
+          src="https://cdn.sanity.io/files/e5uu7aeh/production/0ed4e65a467077f9e0f075c30c03fb2ac22c7037.mp4"
+          autoplay
+          muted
+          loop
+        ></video>
+        <div class="overlay"></div>
+      </section>
+
+      <!-- about section -->
+      <section id="about">
+        <div class="about_container">
+          <div class="about_item about_item1">
+            <!-- text -->
+            <div class="text">
+              <h2>Strategy</h2>
+              <p>
+                Our process starts with strategic anchoring, grasping clients’
+                goals, user needs, and evaluating current products and usage
+                data.
+              </p>
+            </div>
+
+            <!-- video -->
+            <div class="video">
+              <video
+                src="https://cdn.sanity.io/files/e5uu7aeh/production/6399776641c4ed3bb354c3208204ede03344877a.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+          </div>
+
+          <div class="about_item about_item2">
+            <!-- text -->
+            <div class="text">
+              <h2>Design</h2>
+              <p>
+                Through our dedication to design, we focus on scalable systems,
+                testing, prototyping, and building to make visions a reality.
+              </p>
+            </div>
+            <!-- video -->
+            <div class="video">
+              <video
+                src="https://cdn.sanity.io/files/e5uu7aeh/production/afb71045f7dba1b163ae592ad92975cdb2ecabca.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+          </div>
+          <div class="about_item about_item3">
+            <!-- text -->
+            <div class="text">
+              <h2>Brand</h2>
+              <p>
+                At our studio, branding is a journey that builds lasting
+                relationships and unleashes the full potential of our clients'
+                products.
+              </p>
+            </div>
+            <!-- video -->
+            <div class="video">
+              <video
+                src="https://cdn.sanity.io/files/e5uu7aeh/production/f66cad2520d3bae54023e1f82318ad0c8d5cd271.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+          </div>
+
+          <div class="about_item about_item4">
+            <!-- text -->
+            <div class="text">
+              <h2>Technology</h2>
+              <p>
+                Embracing the latest innovations, we integrate emerging tech and
+                leverage cutting-edge tools to enhance possibilities.
+              </p>
+            </div>
+            <!-- video -->
+            <div class="video">
+              <video
+                src="https://cdn.sanity.io/files/e5uu7aeh/production/cc6e487d1eb0c4370907114060b4c6c4b94ccb80.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Industries section -->
+      <section id="Industries">
+        <div class="Industries_container">
+          <div class="inner_contents">
+            <!-- text -->
+            <div class="text">
+              <h2>Industries</h2>
+              <p>
+                We collaborate with industry leaders in robotics, telecoms, AI,
+                and electric vehicles to achieve impactful results.
+              </p>
+            </div>
+
+            <!-- lists -->
+            <div class="list">
+              <ul>
+                <li>
+                  <div class="color-1"></div>
+                  AI
+                </li>
+                <li>
+                  <div class="color-2"></div>
+                  Robotics
+                </li>
+                <li>
+                  <div class="color-3"></div>
+                  EV
+                </li>
+                <li>
+                  <div class="color-4"></div>
+                  Healthcare
+                </li>
+                <li>
+                  <div class="color-5"></div>
+                  Automotive
+                </li>
+                <li>
+                  <div class="color-6"></div>
+                  eCommerce
+                </li>
+                <li>
+                  <div class="color-7"></div>
+                  Wellness
+                </li>
+                <li>
+                  <div class="color-8"></div>
+                  Tech
+                </li>
+                <li>
+                  <div class="color-9"></div>
+                  Media
+                </li>
+                <li>
+                  <div class="color-10"></div>
+                  Telecoms
+                </li>
+              </ul>
+
+              <!-- lists -->
+              <ul>
+                <li>
+                  <div class="color-1"></div>
+                  AI
+                </li>
+                <li>
+                  <div class="color-2"></div>
+                  Robotics
+                </li>
+                <li>
+                  <div class="color-3"></div>
+                  EV
+                </li>
+                <li>
+                  <div class="color-4"></div>
+                  Healthcare
+                </li>
+                <li>
+                  <div class="color-5"></div>
+                  Automotive
+                </li>
+                <li>
+                  <div class="color-6"></div>
+                  eCommerce
+                </li>
+                <li>
+                  <div class="color-7"></div>
+                  Wellness
+                </li>
+                <li>
+                  <div class="color-8"></div>
+                  Tech
+                </li>
+                <li>
+                  <div class="color-9"></div>
+                  Media
+                </li>
+                <li>
+                  <div class="color-10"></div>
+                  Telecoms
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Number section -->
+      <section id="number">
+        <div class="number_container">
+          <div class="number_inner">
+            <h2>50+</h2>
+            <p>Brand team-ups</p>
+          </div>
+
+          <div class="number_inner">
+            <h2>15+</h2>
+            <p>Years in business</p>
+          </div>
+
+          <div class="number_inner">
+            <h2>90+</h2>
+            <p>Industry awards</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brand section  -->
+      <section id="brand">
+        <div class="brand_container">
+          <!-- heading -->
+          <div class="heading_text">
+            <h2>Brands</h2>
+          </div>
+
+          <!-- logo container -->
+          <div class="logo_wrapper">
+            <div class="logo_box">
+              <img src="img/logo_sky.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_axa.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_virgin.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_ford.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_nissan.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_vw.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_nokia.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_apple.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_audi.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_nike.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_fujitsu.svg" alt="logo" />
+            </div>
+
+            <div class="logo_box">
+              <img src="img/logo_bbc.svg" alt="logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sliders -->
+      <section id="slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  “More Air's exceptional service in branding and website
+                  development significantly enhanced our online presence,
+                  crucial for our successful Series A announcement.”
+                </p>
+              </div>
+
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>brad porter</h2>
+                <p>founder & <span>CEO</span>, cobot</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  “Thoughtful, intelligent, finely-tuned design is what you’ll
+                  receive from More Air. And they’re very nice people, so you
+                  can’t go wrong.”
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>James Hilton</h2>
+                <p>Co-Founder, AKQA</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  “Super-talented with a natural eye for design. They have a
+                  precise style that feels fresh and modern, and care
+                  passionately about the quality of their work.”
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Anthony Davies</h2>
+                <p>MD Global Design, Sky</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  "More Air is a very professional multi-talented creative
+                  studio and I had great working experiences with them."
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Jun Inoue</h2>
+                <p>CEO, Great Works K.K. Tokyo</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  "I've developed a great admiration for their work. Always
+                  showing very clever solutions and proposals to enhance the
+                  usability and overall experience."
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Erich Martino</h2>
+                <p>Design Manager, Microsoft</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  "I had the absolute pleasure to work with More Air in two
+                  startups. Their empathic design sense is spot on and
+                  meticulous. It's alway a great pleasure to work with them!"
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Ivo Weevers</h2>
+                <p>Founder & CEO, Albert</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  “Some of the most creative individuals I have worked with,
+                  they have a wide range of skills using the latest
+                  technologies."
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Sheraz Khan</h2>
+                <p>Senior Manager, Apple</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  “Highly creative and diligent going beyond the norm to immerse
+                  in the wider strategic context to inform design decisions."
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Ant Green</h2>
+                <p>Studio Director, IBM</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <!-- slider top -->
+              <div class="top">
+                <p>
+                  "More Air created a new identity for Waseda Tokyo and launched
+                  a website that redefines business school excellence in design
+                  and features."
+                </p>
+              </div>
+              <!-- slider bottom -->
+              <div class="bottom">
+                <h2>Sean Hackett</h2>
+                <p>Professor, Waseda Tokyo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Awards -->
+      <section id="Awards">
+        <div class="awards_container">
+          <div class="awards_inner">
+            <!-- text container -->
+            <div class="text">
+              <h2>Awards</h2>
+              <p>
+                We’re grateful that our work has been recognised through many
+                international design awards over the years.
+              </p>
+            </div>
+            <!-- logo container -->
+            <div class="award_logos">
+              <div class="logo_container">
+                <div class="logo-box">
+                  <img src="img/award_logo1.webp" alt="" />
+                </div>
+                <div class="logo-box">
+                  <img src="img/award_logo2.webp" alt="" />
+                </div>
+                <div class="logo-box">
+                  <img src="img/award_logo3.webp" alt="" />
+                </div>
+                <div class="logo-box">
+                  <img src="img/award_logo4.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- recent works -->
+      <section id="recent_works">
+        <div class="R-works_container">
+          <div class="heading_text">
+            <h2>Recent work</h2>
+          </div>
+
+          <div class="work_items">
+            <div class="work_items_container">
+              <div class="work_box">
+                <div class="image">
+                  <img src="img/works_image1.webp" alt="recent_work_image" />
+                </div>
+                <div class="work_box_text">
+                  <h2>Cobot Brand System</h2>
+                  <p>A new kind of robotics</p>
+                </div>
+              </div>
+
+              <div class="work_box">
+                <div class="image">
+                  <img src="img/works_image2.webp" alt="recent_work_image" />
+                </div>
+                <div class="work_box_text">
+                  <h2>kia Pure Design System</h2>
+                  <p>Flexible future-proof design</p>
+                </div>
+              </div>
+
+              <div class="work_box">
+                <div class="image">
+                  <img src="img/works_image3.webp" alt="recent_work_image" />
+                </div>
+                <div class="work_box_text">
+                  <h2>Nokia Smart Lighting</h2>
+                  <p>Smart home minimalism</p>
+                </div>
+              </div>
+
+              <div class="work_box">
+                <div class="image">
+                  <img src="img/works_image4.webp" alt="recent_work_image" />
+                </div>
+                <div class="work_box_text">
+                  <h2>Smart Car Experience</h2>
+                  <p>The future of transportation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn_animation">
+            <i class="fa-solid fa-arrow-right-long left"></i>
+            <a href="#">View all work</a>
+            <i class="fa-solid fa-arrow-right-long right"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- our approach -->
+      <section id="approach">
+        <div class="approach_container">
+          <div class="heading_text">
+            <h2>How we work</h2>
+            <div class="paragraph">
+              <p>
+                Our lean team, supported by specialised talent tailored to each
+                project, operates with speed and flexibility.
+              </p>
+            </div>
+          </div>
+
+          <div class="approach_items_container">
+            <div class="approach_item approach_item1">
+              <div class="text">
+                <h2>We scale</h2>
+                <p>
+                  We gather requirements to establish the team structure, and
+                  collaborate with the client's design team or work
+                  independently.
+                </p>
+              </div>
+
+              <div class="video">
+                <video
+                  src="https://cdn.sanity.io/files/e5uu7aeh/production/d6ac994e2afc01145421ba26e5a280ed2ca0e0c2.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="approach_item approach_item2">
+              <div class="text">
+                <h2>We explore</h2>
+                <p>
+                  We study the product, research data, market trends and user
+                  behaviour before exploring options with the client to set
+                  goals.
+                </p>
+              </div>
+
+              <div class="video">
+                <video
+                  src="https://cdn.sanity.io/files/e5uu7aeh/production/5cdd51ad216ffa25d6ab4ebe4c408488d80fc729.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="approach_item approach_item3">
+              <div class="text">
+                <h2>We execute</h2>
+                <p>
+                  We develop a roadmap, define milestones, design, prototype and
+                  test before build, with our clients involved at every stage.
+                </p>
+              </div>
+
+              <div class="video">
+                <video
+                  src="https://cdn.sanity.io/files/e5uu7aeh/production/9a32671c2680c38a9e28ba2ad3302c23c8ae131a.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="approach_item approach_item4">
+              <div class="text">
+                <h2>We iterate</h2>
+                <p>
+                  We adjust the product based on feedback and usage data to
+                  enhance functionality, ensuring continuous improvements.
+                </p>
+              </div>
+
+              <div class="video">
+                <video
+                  src="https://cdn.sanity.io/files/e5uu7aeh/production/147b95fbc1ceb8e0b299128c9c6134d6ab1face0.mp4"
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- teams -->
+      <section id="teams">
+        <div class="teams_container">
+          <div class="heading_text">
+            <h2>Who we are</h2>
+          </div>
+
+          <!-- member information -->
+          <div class="members">
+            <div class="member">
+              <div class="img">
+                <img src="img/member-1.webp" alt="" />
+              </div>
+
+              <div class="text">
+                <div class="names">
+                  <h2>Tom Vining</h2>
+                  <p>Co-Founder</p>
+                </div>
+                <p>
+                  With 2 decades in design, Tom has led, mentored, and designed
+                  for top global brands, creating timeless products with his
+                  refined design style.
+                </p>
+                <a href="#">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="member">
+              <div class="img">
+                <img src="img/member-2.webp" alt="" />
+              </div>
+
+              <div class="text">
+                <div class="names">
+                  <h2>Rieko Maeda</h2>
+                  <p>Co-Founder</p>
+                </div>
+                <p>
+                  Blending business savvy with creative flair, Rieko elevates
+                  all of our design initiatives with industry insights, artistic
+                  talent and fresh ideas.
+                </p>
+                <a href="#">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="member">
+              <div class="img">
+                <img src="img/member-3.webp" alt="" />
+              </div>
+
+              <div class="text">
+                <div class="names">
+                  <h2>Specialists</h2>
+                  <p>Talent Network</p>
+                </div>
+                <p>
+                  We have a strong network of talent across disciplines at More
+                  Air, tailored to meet specific project needs and ensure our
+                  clients get the best results.
+                </p>
+                <a href="#">Join Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="contact_container">
+          <div class="contact_content">
+            <h2>Let’s work together</h2>
+            <div class="btn_animation">
+              <i class="fa-solid fa-arrow-right-long left"></i>
+              <a href="#">Say Hello</a>
+              <i class="fa-solid fa-arrow-right-long right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer id="footer">
+        <div class="footer_container">
+          <div class="left">
+            <p>© More Air 2024</p>
+          </div>
+
+          <div class="right">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- SCROLL TRIGGER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- lenis js cdn  -->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <!-- #################### JAVASCRIPT ##################### -->
+    <script src="main.js"></script>
+  </body>
+</html>
